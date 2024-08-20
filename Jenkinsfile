@@ -10,7 +10,7 @@ pipeline {
    stages {
         stage('git checkout') {
             steps {
-                git 'https://github.com/rajdeepsingh642/gaming-board.git'
+                git 'https://github.com/rajdeepsingh642/java-maven-sonarqube-nexus-k8s.git'
             }
         }
         stage('compile') {
